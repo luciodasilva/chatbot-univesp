@@ -133,6 +133,7 @@ client.on('message', async msg => {
     const saudacao = saudacaoes[Math.floor(Math.random() * saudacaoes.length)];
     msg.reply(saudacao + " Escolha uma das opções abaixo para iniciarmos a nossa conversa: \r\n\r\n*1*- Quero saber mais sobre o projeto integrador chatbot univesp \r\n*2*- Gostaria de saber o site da Univesp. \r\n*3*- Apenas quis testar o bot e já estou satisfeito ");
 	
+    
 	  if (msg.reply == 1) {
 		  msg.reply("Hum " + nomeContato + ", Este projeto ainda está sendo desenvolvido e está em fase de testes")
 
