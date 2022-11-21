@@ -142,6 +142,7 @@ client.on('message', async msg => {
     else {
       console.log("teste funcional")
     }
+ 
   
   }
 //  else if (msg.body !== null && msg.body === "1") {
